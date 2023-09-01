@@ -909,15 +909,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🏆 Movie Group 🏆', url='https://t.me/allmovies_webserieshere'),
+                '🔍 Movies Group 🔍', url='https://t.me/allmovies_webserieshere'),
             InlineKeyboardButton(
-                '📣 Updates 📣', url='https://t.me/SA_update')
+                '🤖 Updates', url='https://t.me/SA_update')
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
-                                 url=f'https://youtube.com/@Shahilakhtar')
+            InlineKeyboardButton('🔗 Reaquest a Movie 🔗',
+                                 url=f'https://t.me/SA_movie_request_group')
         ]] 
         
         reply_markup = InlineKeyboardMarkup(buttons)
