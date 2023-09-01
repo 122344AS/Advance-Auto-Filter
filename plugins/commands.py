@@ -49,7 +49,7 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🔍 Movies Group 🔍', url='https://t.me/allmovies_webserieshere'),
+                '🔍 Movie Group 🔍', url='https://t.me/allmovies_webserieshere'),
             InlineKeyboardButton(
                 '🤖 Updates', url='https://t.me/SA_update')
         ], [
@@ -101,7 +101,7 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
              InlineKeyboardButton(
-                '🔍 Movies Group 🔍', url='https://t.me/allmovies_webserieshere'),
+                '🔍 Movie Group 🔍', url='https://t.me/allmovies_webserieshere'),
             InlineKeyboardButton(
                 '🤖 Updates', url='https://t.me/SA_update')
         ], [
