@@ -29,7 +29,7 @@ async def start(client, message):
                 InlineKeyboardButton('♠️ Subscribe ♠️', url='https://youtube.com/@sa.editz_0'),
             ],
             [
-                InlineKeyboardButton('🎗️ Owner 🎗️',url='@Shahilakhtar')
+                InlineKeyboardButton('🎗️ Owner 🎗️',url='https://t.me/Shahilakhtar')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -49,15 +49,15 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🔍 Movie Group 🔍', url='https://t.me/allmovies_webserieshere'),
+                '🔍 Movies Group 🔍', url='https://t.me/allmovies_webserieshere'),
             InlineKeyboardButton(
                 '🤖 Updates', url='https://t.me/SA_update')
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
-                                 url=f'https://youtube.com/@SA.editz_0')
+            InlineKeyboardButton('🔗 Reaquest a Movie 🔗',
+                                 url=f'https://t.me/SA_movie_request_group')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -100,16 +100,16 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕',
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
+             InlineKeyboardButton(
+                '🔍 Movies Group 🔍', url='https://t.me/allmovies_webserieshere'),
             InlineKeyboardButton(
-                '🏆 Movie Group 🏆', url='https://t.me/allmovies_webserieshere'),
-            InlineKeyboardButton(
-                '📣 Updates 📣', url='https://t.me/SA_update')
+                '🤖 Updates', url='https://t.me/SA_update')
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
-                                 url=f'https://youtube.com/@SA.editz_0')
+            InlineKeyboardButton('🔗 Reaquest a Movie 🔗',
+                                 url=f'https://t.me/SA_movie_request_group')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -162,7 +162,7 @@ async def start(client, message):
                          [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/SA_bot_discussion'),
                           InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/SA_update')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="https://t.me/Shahilakhtar")
+                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/Shahilakhtar")
                          ]
                         ]
                     )
@@ -180,7 +180,7 @@ async def start(client, message):
                          [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/SA_bot_discussion'),
                           InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/SA_update')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="https://t.me/Shahilakhtar")
+                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/Shahilakhtar")
                          ]
                         ]
                     )
@@ -251,7 +251,7 @@ async def start(client, message):
                           InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/SA_bot_discussion'),
                           InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/SA_update')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="@Shahilakhtar")
+                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/Shahilakhtar")
                          ]
                         ]
                     )
@@ -294,7 +294,7 @@ async def start(client, message):
                           InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/SA_bot_discussion'),
                           InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/SA_update')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="https://t.me/Shahilakhtar")
+                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/Shahilakhtar")
                          ]
                         ]
                     )
