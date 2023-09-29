@@ -56,8 +56,8 @@ async def start(client, message):
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Reaquest a Movie 🔗',
-                                 url=f'https://t.me/SA_movie_request_group')
+            InlineKeyboardButton('🔗 Shortner Website 🔗',
+                                 url=f'mklinks.in')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -108,7 +108,7 @@ async def start(client, message):
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Reaquest a Movie 🔗',
+            InlineKeyboardButton('🔗 Shortner Website 🔗',
                                  url=f'https://t.me/SA_movie_request_group')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -791,7 +791,7 @@ async def shortlink(bot, message):
     try:
         command, shortlink_url, api = data.split(" ")
     except:
-        return await message.reply_text("<b>Command Incomplete :(\n\nGive me a shortlink and api along with the command !\n\nFormat: <code>/shortlink omegalinks.in 9c53d31922826c891f8d5d730ef5c495c2bcf36e</code></b>")
+        return await message.reply_text("<b>Command Incomplete :(\n\nGive me a shortlink and api along with the command !\n\nFormat: <code>/shortlink mklinks.in 7a303441c79d8055f7980b276074751171062094/code></b>")
     reply = await message.reply_text("<b>Please Wait...</b>")
     await save_group_settings(grpid, 'shortlink', shortlink_url)
     await save_group_settings(grpid, 'shortlink_api', api)
